@@ -1,0 +1,89 @@
+body{
+font-size: 16px;
+    font-family: AppleMyungjo;
+}
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid lavender;
+}
+#contentList #add{
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#contentList ul{
+    list-style-type: none;
+}
+#contentList li{
+    padding: 20px;
+    border-left: 3px solid cornflowerblue;
+    margin: 10px 20px;
+}
+#contentList li:hover{
+    border-left: 3px solid #ddd;
+}
+.delete {
+    padding: 10px;
+    float: right;
+    margin-right: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 4px;
+
+}
+.delete:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+#add{
+    margin: 10px 20px;
+    padding: 20px;
+}
+#addButton{
+    padding: 10px;
+    margin: 10px auto;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Arial Black";
+    box-shadow:0 1px 4px  rgba(0,0,0,0.2);
+}
+#addButton:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+#addForm{
+    min-height: 100px;
+    padding: 15px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+
+    display: none;
+}
+#addForm select{
+    margin-left: 10px;
+}
+#addForm input{
+    margin: 10px 0;
+    height: 20px;
+
+}
+#addForm button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+#addForm button:hover{
+     background-color: dodgerblue;
+}
+#addForm i{
+    color:red;
+}

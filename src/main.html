@@ -3,20 +3,56 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="../node_modules/lodash/lodash.min.js"></script>
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="../node_modules/lodash/lodash.min.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 
+    <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"-->
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
     <title>Form Designer</title>
 </head>
 
 <body>
-<div>
-    <div id="container"></div>
+<div id="wrapper">
+
+    <h2>You can write some things</h2>
+    <div id="contentList">
+        <ul >
+            <li>
+                <span class="textContent">shit</span>
+                <button type="button" class="delete">Delete</button>
+            </li>
+            <li>
+                <span class="textContent">today is a good day</span>
+                <button type="button" class="delete">Delete</button>
+            </li>
+
+        </ul>
+    </div>
+    <div id="add">
+        <div id="addButton">ADD</div>
+        <form id="addForm">
+            <span>The type added</span>
+            <select id="select">
+                <option></option>
+                <option value="Text">Text</option>
+                <option value="Date">Date</option>
+            </select>
+            <br/>
+            <input type="text" id="addText" value="" name ='' size="40" required aria-required="true"/>
+            <br/>
+            <button type="button" class="confirm">Confirm</button>
+            <button type="button" class="cancle">Cancle</button>
+        </form>
+
+    </div>
+    <div id="preview">Preview</div>
+
+
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>
 
