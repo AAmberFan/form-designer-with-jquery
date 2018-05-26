@@ -44,5 +44,11 @@ $(document).ready(function(){
            $(this).text("Preview");
        }
    });
+   $("#addButton2").click(function () {
+
+       $("#addForm").dialog({
+
+       });
+   });
 
 });

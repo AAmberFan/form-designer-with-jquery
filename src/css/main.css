@@ -45,7 +45,7 @@ font-size: 16px;
     margin: 10px 20px;
     padding: 20px;
 }
-#addButton, #preview{
+#addButton,#addButton2, #preview{
     padding: 10px;
     margin: 10px auto;
     background-color: cornflowerblue;
@@ -56,7 +56,7 @@ font-size: 16px;
     box-shadow:0 1px 4px  rgba(0,0,0,0.2);
 }
 
-#addButton:hover, #preview:hover{
+#addButton:hover,#addButton2:hover, #preview:hover{
     background-color: dodgerblue;
     cursor: pointer;
 }
